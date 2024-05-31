@@ -19,11 +19,11 @@ public class MainApplication {
 		System.out.println("--------------------------------");
 		additionalService.printSales(modelS);
 
-		additionalService.calculateTheOutput(model3);
+		additionalService.calculateTheOutput(model3, "model3");
 		System.out.println("--------------------------------");
-		additionalService.calculateTheOutput(modelX);
+		additionalService.calculateTheOutput(modelX, "modelX");
 		System.out.println("--------------------------------");
-		additionalService.calculateTheOutput(modelS);
+		additionalService.calculateTheOutput(modelS, "modelS");
 
 
 	}
