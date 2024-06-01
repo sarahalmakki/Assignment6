@@ -28,17 +28,6 @@ public class FileService {
 
 //			Declaring variables month , year, sale  
 
-//			while ((line = reader.readLine()) != null) {
-//			    String[] columns = line.split(",");
-//			    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM-yy");
-//			    Sales salesTemp = new Sales(YearMonth.parse(columns[0], formatter),
-//			            Integer.parseInt(columns[1]));
-//			    sales.add(salesTemp);
-//			}
-//			return sales;
-
-//			format 
-//			Car car = new Car(sales,date);
 				cars.add(carTemp);
 			}
 		} catch (NumberFormatException e) {
@@ -47,13 +36,5 @@ public class FileService {
 		}
 		return cars;
 	}
-//	public int parseYear(String yearString) {
-//		yearString = yearString.split("-")[];
-//		return Integer.parseInt(yearString);
-//		
-//	}
-//   public int parseMonth(String monthString) {
-//	return Integer.parseInt(monthString);
-//	 
 
 }

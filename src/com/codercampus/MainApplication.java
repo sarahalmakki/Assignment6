@@ -13,11 +13,6 @@ public class MainApplication {
 		List<Car> modelS = fileService.readFromFile("modelS.txt");
 		List<Car> model3 = fileService.readFromFile("model3.txt");
 		AdditionalService additionalService = new AdditionalService();
-		additionalService.printSales(model3);
-		System.out.println("--------------------------------");
-		additionalService.printSales(modelX);
-		System.out.println("--------------------------------");
-		additionalService.printSales(modelS);
 
 		additionalService.calculateTheOutput(model3, "model3");
 		System.out.println("--------------------------------");
